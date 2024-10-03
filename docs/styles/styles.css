@@ -1,0 +1,49 @@
+body {
+    background-color: #F5F5DC;
+    background-image: linear-gradient(#dfa013, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'LegoFont';
+    src: url(../fonts/Legothick.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lego-font {
+    font-family: 'LegoFont', sans-serif;
+    font-size: 2em; /* Tamaño de letra */
+    margin-right: 40px; /* Aumenta este valor para más espacio */
+}
+
+.nombre-y-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nombre-y-foto img {
+    max-width: 300px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+    border-radius: 10px; /* Opción para darle bordes redondeados */
+}
